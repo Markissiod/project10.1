@@ -6,19 +6,22 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<h2>Введите ваш адрес, куда доставить</h2>
+<hr />
+<form action="ready.html" method="post">
+    <h3>Город</h3>
+    <input type="text" name="city" placeholder="Куда везти">
+    <h3>Улица</h3>
+    <input type="text" name="street" placeholder="Немного точнее">
+    <h3>Дом, корпус и строение</h3>
+    <input type="text" name="home" placeholder="Немного точнее">
+    <h3>Пожелания и примечания, если есть</h3>
+    <input type="text" name="wtf" placeholder="">
 
-Введите ваш адрес, куда доставить
+    <p><button onclick="document.location='ready.html'">Продолжить</button></p>
 
----
 
-Город
-Куда везти
-Улица
-Немного точнее
-Дом, корпус и строение
-Пожелания и примечания, если есть
-
-Продолжить
+</form>
 
 </body>
 </html>
